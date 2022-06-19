@@ -1,0 +1,41 @@
+body{
+    background-color: #20083B;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+ul li a{
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Spartan', sans-serif;
+}
+.intro{
+    font-family: 'Rajdhani', sans-serif;
+}
+.my-intro{
+    z-index: 99 !important;
+}
+.circle{
+    background: #FF56F6;
+    pointer-events: none;
+    border-radius: 50%;
+    z-index: 50 !important;
+    filter:blur(50px);  
+    opacity: 0.3; 
+    width: 200px;
+    height: 200px;
+}
+.myCircle{
+    opacity: 0.15;
+}
+
+span, .nft{
+   background: linear-gradient(to right, #43A5E3, #FF56F6);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+button{
+    background: linear-gradient(to right, #43A5E3, #FF56F6);
+    border: none;
+}
